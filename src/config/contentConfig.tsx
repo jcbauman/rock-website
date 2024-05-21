@@ -26,7 +26,7 @@ export const PRIORITY_LIST = [
   Roles.BEATITUDE,
 ];
 
-const getNotes: any = (title: Roles) => {
+const getNotes = (title: Roles): JSX.Element => {
   switch (title) {
     case Roles.ATTIC:
       return (
@@ -80,7 +80,6 @@ const getNotes: any = (title: Roles) => {
               technology. I wrote it in Objective-C 👴🏻.
             </li>
             <li>
-              {" "}
               Additionally I host a biweekly soul/funk radio show, “Lunar
               Rotation." Listen to the next episode live, or browse all the
               archives available online.
